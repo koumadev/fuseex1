@@ -27,3 +27,7 @@ async def validate_url(request: URLRequest):
             }
     except httpx.RequestError:
         raise HTTPException(status_code=400, detail="Failed to fetch the URL.")
+
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the URL Validator API. Use the /validate-url/ endpoint to validate URLs."}

@@ -16,7 +16,7 @@ This project is a FastAPI-based web application that validates and fetches infor
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/koumadev/fuseex1.git
    ```
 2. Navigate to the project directory:
    ```bash
